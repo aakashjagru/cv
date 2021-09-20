@@ -1,0 +1,28 @@
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+li{
+    display: inline;   
+}
+a{
+    display: inline;
+    padding: 35px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.pic{
+    padding-left: 15px;
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-template-rows: 1fr;
+}
+.another{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 10px 5px 40px;
+}
